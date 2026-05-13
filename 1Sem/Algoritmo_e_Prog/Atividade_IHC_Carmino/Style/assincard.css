@@ -1,0 +1,48 @@
+.box-news{
+    background-color: white;
+    margin-bottom: 50px;
+
+    padding: 20px;
+
+    border-radius: 12px;
+
+    margin: 50px auto; /* alinha no centro */
+ 
+    border: 1px solid #ddd;
+
+}
+
+.box-action{
+    margin-top: 10px;
+}
+
+.box-action input{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.box-action-span{
+    font-size: 10px;
+    color: #777;
+}
+
+.checkbox{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.checkbox p{
+    padding: 10px;
+    font-size: 0.9rem;
+}
+
+.btn-box{
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: teal;
+    color: white;
+}

@@ -1,0 +1,101 @@
+.p-cards{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.p-cards-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+
+.p-cards-image{
+    width: 200px;
+    height: 100px;
+    background-color: #eee;
+    border-radius: 10px;
+}
+
+.p-cards2{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.p-cards-content2{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: flex-start;
+
+    text-align: left;
+
+    padding: 20px;
+    gap: 20px;
+
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+
+    width: 100%;
+}
+
+
+.p-cards-image2{
+    width: 100%;
+    max-width: 200px;
+    height: 100px;
+
+    background-color: #eee;
+    border-radius: 10px;
+}
+
+.card-text{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.card-text span{
+    color: #777
+}
+
+.btn-cards{
+    margin: 30px auto;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    gap: 10px;
+
+    background-color: transparent;
+    border: 1px solid teal;
+    color: teal;
+    padding: 14px 20px;
+    border-radius: 8px;
+ 
+}
+
+.p-vao{
+    margin: 60px;
+}
+
+.espaço{
+    margin-top: 60px;
+}

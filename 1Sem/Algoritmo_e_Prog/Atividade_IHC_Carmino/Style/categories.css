@@ -1,0 +1,56 @@
+.popular-categories,
+.all-categories{
+    margin-top: 50px;
+}
+
+.cards{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card{
+    background-color: white;
+
+    min-height: 220px;
+
+    padding: 20px;
+
+    border-radius: 16px;
+
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.tags{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tag{
+    background-color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.bar-card{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.b-cards{
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    font-size: 12px;
+}

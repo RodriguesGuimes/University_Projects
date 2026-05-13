@@ -1,0 +1,95 @@
+.posts-section{
+    margin-top: 60px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.posts-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.post-card{
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+
+    padding: 20px;
+
+    display: flex;
+    
+    gap:20px;
+}
+
+.post-image{
+    width: 120px;
+    height: 120px;
+
+    background-color: #eee;
+    border-radius: 10px;
+
+    flex-shrink: 0; /*imagem não amassar */
+
+}
+
+.post-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.post-content span{
+    color: #777;
+}
+
+.top-posts{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.editor-section{
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.editor-section ul{
+    margin-top: 20px;
+    padding-left: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+.after-bottom{
+    background-color: #fff;
+    border-radius: 0 0 16px 16px;
+    border-top: 3px solid #d9d9d9;
+    padding: 10px 10px;
+}
+
+.bottom-tags{
+    margin-top: 60px;
+
+    display: flex;
+    flex-wrap: wrap;
+     gap: 20px;
+}
+
+.bottom-tag{
+    background-color: white;
+
+    padding: 20px 40px;
+
+    border-radius: 12px;
+    border: 1px solid #ddd;
+}
+

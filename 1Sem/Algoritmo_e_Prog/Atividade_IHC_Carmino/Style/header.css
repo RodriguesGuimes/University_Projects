@@ -1,0 +1,47 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    padding: 24px 40px;
+    background-color: #fff;
+    border-radius: 16px 16px 0 0;
+    border-bottom:3px solid #d9d9d9;
+}
+
+.logo{
+    font-size: 24px;
+    text-align: center;
+}
+
+.nav ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #222;
+}
+
+.header-actions{
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.header-actions input,
+.header-actions button {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #cccccc;
+}
+
+#button{
+    border: 2px solid teal;
+    background-color: transparent;
+    color: teal;
+}

@@ -1,0 +1,309 @@
+.dashboard-layout{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 60px;
+}
+
+.dashboard-layout input{
+    padding: 12px;
+    width: 90%;
+    margin: 5px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    color: #ddd;
+
+    margin-left: 20px;
+
+}
+
+.dashboard-layout2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 60px;
+}
+
+.dashboard-layout2 input{
+    width: 100%;
+    padding: 12px;
+
+    border-radius: 8px;
+    border: 1px solid #ddd;
+
+}
+
+.titulo{
+    margin-top: 20px;
+    font-size: 1rem;;
+}
+
+.dashboard-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    
+}
+
+.m-admin{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+}
+
+.m-admin2{
+    display: flex;
+    flex-direction: column;
+
+    gap: 16px;
+    padding: 20px;
+
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+
+    width: 100%;
+}
+
+.btns-admin{
+    width: fit-content;
+
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+
+    background-color: teal;
+    color: white;
+}
+
+.m-menu2{
+    margin: 0;
+}
+
+
+.img-perfil{
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+    background-color: #ddd;
+}
+
+.m-menu{
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.m-list{
+    padding-left: 60px;
+    padding-bottom: 20px;
+}
+
+.section-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.section-card div{
+    border-radius: 8px;
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    gap: 10px;
+
+    margin-left: 10px;
+
+    padding: 20px;
+    text-align: center;
+
+    width: 100%;
+}
+
+.article-m-adm{
+    margin-top: 20px;
+    padding: 20px;
+
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+
+}
+
+.article-m-adm input{
+    width: 100%;
+
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.article-m-adm h4{
+    margin-top: 20px;
+    width: 30%;
+    height: 40px;
+    background-color: white;
+    border-bottom: 2px solid #ddd;
+}
+
+.box-admin{
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+
+    background-color: white;
+    border-bottom: 2px solid #ddd;
+
+    padding: 0 16px;
+    
+    
+}
+
+.box-admin button{
+    padding: 12px 20px;
+
+    border: 1px solid teal;
+    border-radius: 8px;
+
+    background-color: transparent;
+
+    color: teal;
+
+    margin-bottom: 10px;
+    
+}
+
+.div-modificador{
+    margin-right: 20%;
+}
+
+.div-modificador button{
+    padding: 12px 20px;
+
+    border: 1px solid teal;
+    border-radius: 8px;
+
+    background-color: transparent;
+
+    color: teal;
+
+    margin-bottom: 10px;
+    
+}
+
+/* GRID */
+
+.tab-seletor{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: 2px solid #ddd;
+    gap: 30px;
+    gap: 50px;
+}
+
+.tab-seletor h5{
+    margin-top: 20px;
+    width: 30%;
+    height: 40px;
+    font-size: 0.75rem;
+
+}
+.tab-user{
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    height: 50px;
+
+    font-size: 0.75rem;
+
+    background-color: white;
+    border-bottom: 2px solid #ddd;
+
+    padding: 0 16px;
+      
+}
+
+.tab-user button{
+    padding: 10px 15px;
+
+    font-size: 0.75rem;
+
+    border: 1px solid teal;
+    border-radius: 8px;
+
+    background-color: transparent;
+
+    color: teal;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* CRIAR POST TELA */
+
+.box-main{
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.box-main input{
+   width: 100%;
+
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+#box-chat{
+    margin-top: 10px;
+    width: 100%;
+    height: 200px;
+
+    padding: 20px;
+
+    border-radius: 8px;
+    border: 2px dashed #ddd;
+
+    resize: none;
+}
+
+#box-chat::placeholder{
+    color: #222;
+}
+
+.teste{
+    margin-top: 20px;
+    padding: 20px;
+
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+}
+
+.teste h4{
+    margin-top: 20px;
+    width: 30%;
+    height: 40px;
+    background-color: white;
+}
+
+.ajuste{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
